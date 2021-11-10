@@ -4,11 +4,21 @@ html.body{
 body{
     background:lightskyblue;
     text-align:center;
-    margin:0;
+    margin-top:400px;
     padding:0;
 }
+button{
+    height:60px;
+    width:200px;
+    background:lemonchiffon;
+}
+.save{
+    position:relative;
+    bottom:70px;
+    left:125px;
+    
+}
 .SP{
-    width:100px;
-    height:100px;
-    background-color:linen;
+    position:relative;
+    right:79px;
 }
