@@ -1,5 +1,5 @@
-const rmCheck = document.getElementById("rememberMe"),
-    emailInput = document.getElementById("email");
+let rmCheck = document.getElementById("rememberMe");
+let  emailInput = document.getElementById("email");
 
 if (localStorage.checkbox && localStorage.checkbox !== "") {
   rmCheck.setAttribute("checked", "checked");
@@ -10,11 +10,5 @@ if (localStorage.checkbox && localStorage.checkbox !== "") {
 }
 
 function lsRememberMe() {
-  if (rmCheck.checked && emailInput.value !== "") {
-    localStorage.username = emailInput.value;
-    localStorage.checkbox = rmCheck.value;
-  } else {
-    localStorage.username = "";
-    localStorage.checkbox = "";
-  }
+    window.open('homepage.html');
 }

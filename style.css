@@ -10,21 +10,37 @@ body{
 button{
     height:60px;
     width:200px;
-    background:lemonchiffon;
 }
 .login{
     position:relative;
     bottom:70px;
     left:125px;
+    background:lemonchiffon;
     
 }
 .register{
     position:relative;
     right:79px;
+    background:lemonchiffon;
 }
 
 .login{
     text-align:center;
+}
+
+.save{
+    position:relative;
+    bottom:70px;
+    left:125px;
+}
+.save{
+    text-align:center;
+    background:lightsalmon;
+}
+.SP{
+    position:relative;
+    right:79px;
+    background:lightsteelblue;
 }
 
 
